@@ -2,7 +2,7 @@
   "version": "0.2.0",
   "configurations": [
     {
-      "name": "Build & run in Azahar",
+      "name": "3DS: Build & Run in Emu",
       "type": "cppvsdbg", // cppdbg : C++ (GDB/LLDB)
       "request": "launch",
       "program": "C:\\path\\to\\3DS\\emulator\\such\\as\\azahar.exe",
