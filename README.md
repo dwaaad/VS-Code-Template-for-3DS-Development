@@ -3,7 +3,7 @@ Premade VS Code configuration files to aid in devkitPro 3DS development.
 
 If you've been struggling with setting up VS Code with devkitPro, such as devkitPro libraries not picking up etc, this should solve all your issues assuming you installed devkitPro with the official Windows [installer](https://github.com/devkitPro/installer/releases/latest).
 
-# Setup
+## Setup
 > [!NOTE]
 > This assumes you have already setup devkitPro for Windows OS. A small guide I'd like to recommend is this [Nintendo 3DS Homebrewing - Getting Started Guide By Drake Rochelle](https://gbatemp.net/threads/3ds-homebrew-development-getting-started-guide.666095/)
 
