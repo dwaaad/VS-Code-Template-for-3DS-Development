@@ -1,0 +1,22 @@
+{
+    "configurations": [
+        {
+            "name": "Win32",
+            "includePath": [
+                "${default}",
+                "C:\\devkitPro\\**",
+                "C:\\devkitPro\\libctru\\include\\**",
+                "C:\\devkitPro\\devkitARM\\include\\**",
+                "C:\\devkitPro\\devkitARM\\arm-none-eabi\\include\\**",
+                "C:\\devkitPro\\devkitARM\\lib\\gcc\\arm-none-eabi\\**",
+                "C:\\devkitPro\\portlibs\\3ds\\include\\**"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ]
+        }
+    ],
+    "version": 4
+}

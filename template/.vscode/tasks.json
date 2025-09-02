@@ -1,0 +1,19 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+      {
+          "label": "Make",
+          "command": "make",
+          "args":[
+            "-s"
+          ],
+          "group": {
+              "kind": "build"
+          },
+          "presentation": {
+              "reveal": "silent"
+          },
+          "problemMatcher": "$gcc"
+      },
+  ]
+}
