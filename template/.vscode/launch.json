@@ -11,6 +11,18 @@
       ],
       "cwd": "${workspaceFolder}",
       "preLaunchTask": "Make"
+    },
+    {
+      "name": "3dslink: Build & Run on Hardware",
+      "type": "cppvsdbg",
+      "request": "launch",
+      "program": "cmd.exe",
+      "args": [
+        "/c",
+        "3dslink -a 3ds.ip.address.123 ${workspaceFolderBasename}.3dsx"
+      ],
+      "cwd": "${workspaceFolder}",
+      "preLaunchTask": "Make"
     }
   ]
 }
