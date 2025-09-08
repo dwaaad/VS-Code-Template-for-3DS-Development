@@ -59,3 +59,6 @@ Now when we try run the project we can safely choose the option "3dslink: Build 
 
 ### Example
 From here on out you can do whatever you like with these files, get creative with it and make more configs. I personally have one for my emulator of choice, one for linking to my New 2DS XL and another for my New 3DS LL: <WIP-insert-screenshots>
+
+# Licence
+WIP but basically just credit me where you can please and thanks :)
