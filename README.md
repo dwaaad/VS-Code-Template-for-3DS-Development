@@ -1,5 +1,7 @@
 # VS Code Template for devkitPro 3DS Development 
-Premade Visual Studio Code configuration files to aid in devkitPro 3DS development. If you've been struggling to get devkitPro correctly setup with VS Code, this template will do that and more!
+Premade Visual Studio Code configuration files to aid in devkitPro 3DS development.
+
+If you've been struggling to get devkitPro correctly setup with VS Code, this template will do that and more!
 
 ## Features 
 - It will solve devkitPro libraries not picking up
@@ -54,3 +56,6 @@ Now that we can actually use the tool, we must edit the `launch.json` to include
 3. Save file changes and smile, because we're done :)
 
 Now when we try run the project we can safely choose the option "3dslink: Build & Run on Hardware".
+
+### Example
+From here on out you can do whatever you like with these files, get creative with it and make more configs. I personally have one for my emulator of choice, one for linking to my New 2DS XL and another for my New 3DS LL: <WIP-insert-screenshots>
