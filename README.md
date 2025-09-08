@@ -28,8 +28,6 @@ Libraries should be recognised without any need to setup. However, if VS Code st
 The emulation launch task will prompt VS Code to automatically build *(using "make")* and run the resulting `.3dsx` file in a 3DS emulator, which you have to link yourself in the [`launch.json`](https://github.com/dwaaad/VS-Code-Template-for-3DS-Development/blob/main/template/.vscode/launch.json) file.
 Put your path to `.exe` there and you should be good to go!
 
-If you're totally lost, here's a more step-by-step explanation:
-1. open up the launch.json file in ./template/.vscode/launch.json
 ### 3DS Link
 There is another configuration that I have recently added which will make testing on real hardware much faster as well. This will automate the use of the 3dslink tool which comes bundled with devkitPro's 3ds-dev environment.
 
