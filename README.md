@@ -58,7 +58,7 @@ Now that we can actually use the tool, we must edit the `launch.json` to include
 Now when we try run the project we can safely choose the option "3dslink: Build & Run on Hardware".
 
 ## Example
-From here on out you can do whatever you like with these files, get creative with it and make more configs. I personally have one for my emulator of choice, one for linking to my New 2DS XL and another for my New 3DS LL: <WIP-insert-screenshots>
+From here on out you can do whatever you like with these files, get creative with it and make more configs. I personally have one for my emulator of choice, one for linking to my New 2DS XL and another for my New 3DS LL: <WIP-insert-screenshots-include-little-writing-underneath-ss-with-vscodetheme>
 
 # Licence
 WIP but basically just credit me where you can please and thanks :)
