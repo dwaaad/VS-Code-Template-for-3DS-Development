@@ -33,7 +33,7 @@ The emulation launch task will prompt VS Code to automatically build *(using "ma
 Put your path to `.exe` there and you should be good to go!
 
 ### 3DS Link
-There is another configuration that I have recently added which will make testing on real hardware much faster as well. This will automate the use of the 3dslink tool which comes bundled with devkitPro's 3ds-dev environment.
+There is another configuration which will make testing on real hardware much faster. This will automate the use of the 3dslink tool which comes bundled with devkitPro's 3ds-dev environment.
 
 In order to get this working I highly suggest you make the tool a system wide path variable so that it may be used from any location on the terminal.
 
