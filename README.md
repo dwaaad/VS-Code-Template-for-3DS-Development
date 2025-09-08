@@ -3,18 +3,18 @@ Premade Visual Studio Code configuration files to aid in devkitPro 3DS developme
 
 If you've been struggling to get devkitPro correctly setup with VS Code, this template will do that and more!
 
-## Features 
+# Features 
 - It will solve devkitPro libraries not picking up
 - Automatically build from source and then emulate
 - Automatically build and run on hardware.
 
-## Setup
+# Setup
 > [!IMPORTANT]
 > This assumes you have already setup devkitPro for Windows OS. A small guide I'd like to recommend is this [Nintendo 3DS Homebrewing - Getting Started Guide By Drake Rochelle](https://gbatemp.net/threads/3ds-homebrew-development-getting-started-guide.666095/)
 
 To use the template, all you gotta do is download the folder and rename it from "template" to your chosen project name. This will solve the libraries not being recognised. If you don't want the other automation features, you can delete both the `launch.json` and `task.json` files.
 
-### Library Detection
+## Library Detection
 Libraries should be recognised without any need to setup. However, if VS Code still doesn't recognise the libraries, you can edit the [C/C++ extension](https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools) `settings.json` to include:
 ```json
 {
@@ -30,11 +30,11 @@ Libraries should be recognised without any need to setup. However, if VS Code st
 }
 ```
 
-### Emulation
+## Emulation
 The emulation launch task will prompt VS Code to automatically build *(using "make")* and run the resulting `.3dsx` file in a 3DS emulator, which you have to link yourself in the [`launch.json`](https://github.com/dwaaad/VS-Code-Template-for-3DS-Development/blob/main/template/.vscode/launch.json) file.
 Put your path to `.exe` there and you should be good to go!
 
-### 3DS Link
+## 3DS Link
 There is another configuration which will make testing on real hardware much faster. This will automate the use of the 3dslink tool which comes bundled with devkitPro's 3ds-dev environment.
 
 In order to get this working I highly suggest you make the tool a system wide path variable so that it may be used from any location on the terminal.
@@ -57,7 +57,7 @@ Now that we can actually use the tool, we must edit the `launch.json` to include
 
 Now when we try run the project we can safely choose the option "3dslink: Build & Run on Hardware".
 
-### Example
+## Example
 From here on out you can do whatever you like with these files, get creative with it and make more configs. I personally have one for my emulator of choice, one for linking to my New 2DS XL and another for my New 3DS LL: <WIP-insert-screenshots>
 
 # Licence
