@@ -7,7 +7,7 @@ Premade Visual Studio Code configuration files to aid in devkitPro 3DS developme
 - Automatically build and run on hardware.
 
 ## Setup
-> [!NOTE]
+> [!IMPORTANT]
 > This assumes you have already setup devkitPro for Windows OS. A small guide I'd like to recommend is this [Nintendo 3DS Homebrewing - Getting Started Guide By Drake Rochelle](https://gbatemp.net/threads/3ds-homebrew-development-getting-started-guide.666095/)
 
 To use the template, all you gotta do is download the folder and rename it from "template" to your chosen project name. This will solve the libraries not being recognised. If you don't want the other automation features, you can delete both the `launch.json` and `task.json` files.
@@ -37,7 +37,8 @@ There is another configuration which will make testing on real hardware much fas
 
 In order to get this working I highly suggest you make the tool a system wide path variable so that it may be used from any location on the terminal.
 
-If you don't want to do this for some reason, you'll have to edit the "3dslink" in the launch.json to "C:\devkitPro\tools\bin\3dslink.exe".
+> [!NOTE]
+> If you don't want to do this for some reason, you'll have to edit the "3dslink" in the `launch.json` to "C:\devkitPro\tools\bin\3dslink.exe".
 
 Let's break it down:
 1. First add `3dstool.exe` as an environment variable. I did this as in my User Path. The fastest way to get there is to press <kbd>🪟 Win</kbd> + <kbd>R</kbd> on your keyboard and paste `SystemPropertiesAdvanced`
