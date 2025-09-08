@@ -1,7 +1,10 @@
 # VS Code Template for devkitPro 3DS Development 
 Premade Visual Studio Code configuration files to aid in devkitPro 3DS development.
 
-It will solve devkitPro libraries not picking up, and either automatically build and emulate, or automatically build and run on hardware.
+## Features 
+- It will solve devkitPro libraries not picking up
+- Automatically build from source and then emulate
+- Automatically build and run on hardware.
 
 ## Setup
 > [!NOTE]
