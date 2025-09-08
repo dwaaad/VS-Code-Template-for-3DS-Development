@@ -10,6 +10,7 @@ Premade Visual Studio Code configuration files to aid in devkitPro 3DS developme
 > [!NOTE]
 > This assumes you have already setup devkitPro for Windows OS. A small guide I'd like to recommend is this [Nintendo 3DS Homebrewing - Getting Started Guide By Drake Rochelle](https://gbatemp.net/threads/3ds-homebrew-development-getting-started-guide.666095/)
 
+To use the template, all you gotta do is download the folder and rename it from "template" to your chosen project name. This will solve the libraries not being recognised. If you don't want the other automation features, you can delete both the `launch.json` and `task.json` files.
 
 ### Library Detection
 Libraries should be recognised without any need to setup. However, if VS Code still doesn't recognise the libraries, you can edit the [C/C++ extension](https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools) `settings.json` to include:
