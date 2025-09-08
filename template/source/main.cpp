@@ -12,7 +12,7 @@ int main(int argc, char **argv)
 	//To move the cursor you have to print "\x1b[r;cH", where r and c are respectively the row and column where you want your cursor to move
 	//The top screen has 30 rows and 50 columns
 	//The bottom screen has 30 rows and 40 columns
-	printf("\x1b[16;7HThis was built and ran through VS Code!");
+	printf("\x1b[11;7HThis was built and ran through VS Code!");
 
 	printf("\x1b[25;16HPress Start to exit.");
 
