@@ -40,7 +40,7 @@ There is another configuration which will make testing on real hardware much fas
 In order to get this working I highly suggest you make the tool a system wide path variable so that it may be used from any location on the terminal.
 
 > [!NOTE]
-> If you don't want to do this for some reason, you'll have to edit the "3dslink" in the `launch.json` to "C:\devkitPro\tools\bin\3dslink.exe"
+> If you don't want to do this for some reason, you'll have to edit the "3dslink" command to "C:\devkitPro\tools\bin\3dslink.exe" in the `launch.json`
 
 Let's break it down:
 1. First add `3dstool.exe` as an environment variable. I did this as in my User Path. The fastest way to get there is to press <kbd>🪟 Win</kbd> + <kbd>R</kbd> on your keyboard and paste `SystemPropertiesAdvanced`
