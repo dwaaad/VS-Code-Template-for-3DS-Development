@@ -47,9 +47,9 @@ Let's break it down:
 6. Press OK on all aforementioned windows
 7. You can check you've done it correctly by typing in any cmd "3dslink" and hitting enter. It should output the version number with the help commands
 
-Now that we can actually use the tool, we must edit the launch.json to include our own 3DSs IP Address.
-1. You can get this by opening the homebrew menu app on your modded 3DS and pressing <kbd>Y</kbd>. You must do this everytime you would like to run on hardware.
+Now that we can actually use the tool, we must edit the `launch.json` to include our own 3DSs IP Address.
+1. You can get this by opening the homebrew menu app on your modded 3DS and pressing Y (or X). You must do this everytime you would like to use 3dslink.
 2. Go to the launch.json and replace `3ds.ip.address.123` with your actual IP
-3. Save file changes and smile because we're done :)
+3. Save file changes and smile, because we're done :)
 
 Now when we try run the project we can safely choose the option "3dslink: Build & Run on Hardware".
