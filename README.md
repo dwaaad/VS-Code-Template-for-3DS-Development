@@ -39,7 +39,7 @@ There is another configuration which will make testing on real hardware much fas
 
 ### Setting the environment variable
 
-In order to get this working I highly suggest you make the tool a system wide path variable so that it may be used from any location on the terminal.
+In order to get this working I highly suggest you make the tool a system-wide path variable so that it may be used from any location on the terminal.
 
 > [!NOTE]
 > If you don't want to do this for some reason, you'll have to edit the "3dslink" command to "C:\devkitPro\tools\bin\3dslink.exe" in the `launch.json`
