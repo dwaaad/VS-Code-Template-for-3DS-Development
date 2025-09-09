@@ -37,6 +37,8 @@ Put your path to `.exe` there and you should be good to go!
 ## 3DS Link
 There is another configuration which will make testing on real hardware much faster. This will automate the use of the 3dslink tool which comes bundled with devkitPro's 3ds-dev environment.
 
+### Setting the environment variable
+
 In order to get this working I highly suggest you make the tool a system wide path variable so that it may be used from any location on the terminal.
 
 > [!NOTE]
@@ -49,6 +51,8 @@ Let's break it down:
 5. Another window should open with a list of user path variables, double click on the blank space under the list and paste C:\devkitPro\tools\bin to add it to your Path
 6. Press OK on all aforementioned windows
 7. You can check you've done it correctly by typing in any cmd "3dslink" and hitting enter. It should output the version number with the help commands
+
+### Usage
 
 Now that we can actually use the tool, we must edit the `launch.json` to include our own 3DSs IP Address.
 1. You can get this by opening the homebrew menu app on your modded 3DS and pressing Y (or X). You must do this everytime you would like to use 3dslink.
