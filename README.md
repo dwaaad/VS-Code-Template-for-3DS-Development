@@ -54,7 +54,7 @@ Let's break it down:
 
 ### Usage
 
-Now that we can actually use the tool, we must edit the `launch.json` to include our own 3DSs IP Address.
+Now that we can actually use the tool, we must edit the `launch.json` to include our own 3DS's IP Address.
 1. You can get this by opening the homebrew menu app on your modded 3DS and pressing Y (or X). You must do this everytime you would like to use 3dslink.
 2. Go to the launch.json and replace `3ds.ip.address.123` with your actual IP
 3. Save file changes and smile, because we're done :)
@@ -63,6 +63,9 @@ Now when we try run the project we can safely choose the option "3dslink: Build 
 
 ## Example
 From here on out you can do whatever you like with these files, get creative with it and make more configs. I personally have one for my emulator of choice, one for linking to my New 2DS XL and another for my New 3DS LL: <WIP-insert-screenshots-include-little-writing-underneath-ss-with-vscodetheme>
+<img width="626" height="113" alt="image" src="https://github.com/user-attachments/assets/2157c5f6-3069-45db-813f-3828231c0cb2" />
+
+> *VS Code Theme: [Catppuccin Frappé](https://marketplace.visualstudio.com/items?itemName=Catppuccin.catppuccin-vsc)*
 
 # Licence
 WIP but basically just credit me where you can please and thanks :)
