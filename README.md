@@ -66,6 +66,3 @@ From here on out you can do whatever you like with these files, get creative wit
 <img width="626" height="113" alt="image" src="https://github.com/user-attachments/assets/2157c5f6-3069-45db-813f-3828231c0cb2" />
 
 > *VS Code Theme: [Catppuccin Frappé](https://marketplace.visualstudio.com/items?itemName=Catppuccin.catppuccin-vsc)*
-
-# Licence
-WIP but basically just credit me where you can please and thanks :)
