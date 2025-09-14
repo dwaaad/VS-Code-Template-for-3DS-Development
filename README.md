@@ -9,8 +9,8 @@ If you've been struggling to get devkitPro correctly setup with VS Code, this te
 - Automatically build and run on hardware.
 
 # Setup
-> [!IMPORTANT]
-> This assumes you have already setup devkitPro for Windows OS. A small guide I'd like to recommend is this [Nintendo 3DS Homebrewing - Getting Started Guide By Drake Rochelle](https://gbatemp.net/threads/3ds-homebrew-development-getting-started-guide.666095/). Even if you think you've done it correctly (like I did), I implore you to give it a read. It is **not** just downloading and running the installer. Once you have followed the setup, you may realise that some libraries are still not found when running `make`. It seems that just reinstalling anything missing does the trick: `pacman -S citro2d`
+> [!CAUTION]
+> Make sure you have already setup devkitPro exactly as described in this [Nintendo 3DS Homebrewing - Getting Started Guide By Drake Rochelle](https://gbatemp.net/threads/3ds-homebrew-development-getting-started-guide.666095/). It is **not** just downloading and running the installer. Once you have followed the setup, you may realise that some libraries are still not found when running `make`. It seems that just reinstalling anything missing solved this: `pacman -S citro2d`
 
 To use the template, all you gotta do is download the folder and rename it from "template" to your chosen project name. This will solve the libraries not being recognised. If you don't want the other automation features, you can delete both the `launch.json` and `task.json` files.
 
