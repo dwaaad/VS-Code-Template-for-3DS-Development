@@ -48,7 +48,7 @@ Let's break it down:
 1. First add `3dstool.exe` as an environment variable. I did this in my User Path. The fastest way to get there is to press <kbd>🪟 Win</kbd> + <kbd>R</kbd> on your keyboard and paste `SystemPropertiesAdvanced`
 3. Then press the <kbd>Environment Variables</kbd> button
 4. A new window will pop up. Under "User variables for...", double click on the "Path" variable
-5. Another window should open with a list of user path variables, double click on the blank space under the list and paste C:\devkitPro\tools\bin to add it to your Path
+5. Another window should open with a list of user path variables, double click on the blank space under the list and paste `C:\devkitPro\tools\bin` to add it to your Path
 6. Press OK on all aforementioned windows
 7. You can check you've done it correctly by typing in any cmd "3dslink" and hitting enter. It should output the version number with the help commands
 
