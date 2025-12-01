@@ -12,7 +12,7 @@ If you've been struggling to get devkitPro correctly setup with VS Code, this te
 > [!CAUTION]
 > Make sure you have already setup devkitPro exactly as described in this [Nintendo 3DS Homebrewing - Getting Started Guide By Drake Rochelle](https://gbatemp.net/threads/3ds-homebrew-development-getting-started-guide.666095/). It is **not** just downloading and running the installer. Once you have followed the guide, you may realise that some libraries are still not found when running `make`. I've discovered that reinstalling any missing libs resolves this issue: `pacman -S citro2d`
 
-To use the template, all you gotta do is download the folder and rename it from "template" to your chosen project name. This will solve the libraries not being recognised. If you don't want the other automation features, you can delete both the `launch.json` and `task.json` files.
+To use the template, all you gotta do is download the folder and rename it to your chosen project name. Using this as your project folder will solve the libraries not being recognised. If you don't want the other automation features, you can delete both the `launch.json` and `task.json` files.
 
 ## Library Detection
 Libraries should be recognised without any need to setup. However, if VS Code still doesn't recognise the libraries, you can edit the [C/C++ extension](https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools) `settings.json` to include:
